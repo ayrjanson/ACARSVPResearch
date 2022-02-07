@@ -1,3 +1,3 @@
 # ACA RSVP Research
 
-Initial Contributions: Laptop RSVP program
+Initial Contributions: AR RSVP Program
