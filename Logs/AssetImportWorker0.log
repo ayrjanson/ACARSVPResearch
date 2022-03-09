@@ -1,0 +1,571 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Education' Language: 'en' Physical Memory: 8080 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/muth23/Downloads/ACARSVPResearch-3.7.22.branch/ACARSVPResearch-3.7.22.branch
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63427
+Successfully changed project path to: C:/Users/muth23/Downloads/ACARSVPResearch-3.7.22.branch/ACARSVPResearch-3.7.22.branch
+C:/Users/muth23/Downloads/ACARSVPResearch-3.7.22.branch/ACARSVPResearch-3.7.22.branch
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 85.19 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/muth23/Downloads/ACARSVPResearch-3.7.22.branch/ACARSVPResearch-3.7.22.branch/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 630 (ID=0x5912)
+    Vendor:   
+    VRAM:     4040 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001069 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 69.86 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.606 seconds
+Domain Reload Profiling:
+	ReloadAssembly (606ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.16 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\muth23\Downloads\ACARSVPResearch-3.7.22.branch\ACARSVPResearch-3.7.22.branch\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@922189e0c9f2-1646781990920\Samples~\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses'.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x000f7] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].CommonInit () [0x00054] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource]..ctor (System.String path, System.String originalUserPath, System.String searchPattern, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1[TSource] resultHandler, System.Boolean checkHost) [0x000d6] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableFactory.CreateFileNameIterator (System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00009] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern) [0x0001c] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern) [0x0000e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x00002] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern, System.IO.SearchOption searchOption) [0x00017] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFiles(string,System.IO.SearchOption)
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.FindShaderFolderInPackage () [0x0004c] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:152 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.EnsureShaders (System.Boolean bypassIgnore) [0x00000] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:42 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities..cctor () [0x00000] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[XR] Error loading subsystem: Display (1) (header mismatch?)
+[XR] [MROpenXR][Info   ][15:34:05.398689][tid:5aac] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][15:34:05.398798][tid:5aac] InputProvider_RegisterLifeCycleProvider
+[XR] [MROpenXR][Info   ][15:34:05.399512][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.26f1
+[XR] [MROpenXR][Info   ][15:34:05.400075][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][15:34:05.400124][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][15:34:05.400191][tid:5aac] OnPluginStarted UnityVersion=2020.3.26f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  2.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2085ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1883ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (497ms)
+				ProcessInitializeOnLoadMethodAttributes (530ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.1 MB.
+System memory in use after: 155.9 MB.
+
+Unloading 585 unused Assets to reduce memory usage. Loaded Objects now: 4045.
+Total: 5.290000 ms (FindLiveObjects: 0.454700 ms CreateObjectMapping: 0.206500 ms MarkObjects: 3.875000 ms  DeleteObjects: 0.752800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c819e4d7344fe055de2cc341bf37256') in 0.022384 seconds 
+  Import took 0.029327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.314642 seconds.
+  path: Assets/Scenes/BoxCollider.215.unity
+  artifactKey: Guid(1c9cf28cea1e3924e9bf8aed8022b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BoxCollider.215.unity using Guid(1c9cf28cea1e3924e9bf8aed8022b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6efd693665249fa4f874bcdef8637a') in 0.013803 seconds 
+  Import took 0.023373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.330358 seconds.
+  path: Assets/Scenes/XR
+  artifactKey: Guid(402ed586d8b09bc488a3b58a30b32968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/XR using Guid(402ed586d8b09bc488a3b58a30b32968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2783d78ee62cf20d05bcce7b55fa16f') in 0.013774 seconds 
+  Import took 0.022178 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\muth23\Downloads\ACARSVPResearch-3.7.22.branch\ACARSVPResearch-3.7.22.branch\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@922189e0c9f2-1646781990920\Samples~\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses'.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x000f7] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].CommonInit () [0x00054] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource]..ctor (System.String path, System.String originalUserPath, System.String searchPattern, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1[TSource] resultHandler, System.Boolean checkHost) [0x000d6] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableFactory.CreateFileNameIterator (System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00009] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern) [0x0001c] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern) [0x0000e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x00002] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern, System.IO.SearchOption searchOption) [0x00017] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFiles(string,System.IO.SearchOption)
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.FindShaderFolderInPackage () [0x0004c] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:152 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.EnsureShaders (System.Boolean bypassIgnore) [0x00000] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:42 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities..cctor () [0x00000] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at C:/Users/muth23/Downloads/MRTKTutorial/MRTKTutorial/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@4ec0bc61a23e-1644364188659/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at C:/Users/muth23/Downloads/MRTKTutorial/MRTKTutorial/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@4ec0bc61a23e-1644364188659/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: C:/Users/muth23/Downloads/MRTKTutorial/MRTKTutorial/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@4ec0bc61a23e-1644364188659/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+[XR] [MROpenXR][Info   ][15:41:48.243269][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.26f1
+[XR] [MROpenXR][Info   ][15:41:48.244042][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][15:41:48.244138][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][15:41:48.244223][tid:5aac] OnPluginStarted UnityVersion=2020.3.26f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  2.170 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2170ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1890ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (504ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (954ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (398ms)
+				ProcessInitializeOnLoadMethodAttributes (437ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3572 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.8 MB.
+System memory in use after: 147.8 MB.
+
+Unloading 108 unused Assets to reduce memory usage. Loaded Objects now: 4048.
+Total: 6.443700 ms (FindLiveObjects: 0.432200 ms CreateObjectMapping: 0.294100 ms MarkObjects: 5.168900 ms  DeleteObjects: 0.546500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 427.047014 seconds.
+  path: Assets/Scenes/AssetButton.208.unity
+  artifactKey: Guid(c691a460092e7e94ea96925c0617759f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AssetButton.208.unity using Guid(c691a460092e7e94ea96925c0617759f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0e5a3a4ea7ae39c5b9474ce540b050') in 0.026709 seconds 
+  Import took 0.034744 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\muth23\Downloads\ACARSVPResearch-3.7.22.branch\ACARSVPResearch-3.7.22.branch\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@922189e0c9f2-1646781990920\Samples~\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses'.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x000f7] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].CommonInit () [0x00054] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource]..ctor (System.String path, System.String originalUserPath, System.String searchPattern, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1[TSource] resultHandler, System.Boolean checkHost) [0x000d6] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableFactory.CreateFileNameIterator (System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00009] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern) [0x0001c] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern) [0x0000e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x00002] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern, System.IO.SearchOption searchOption) [0x00017] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFiles(string,System.IO.SearchOption)
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.FindShaderFolderInPackage () [0x0004c] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:152 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.EnsureShaders (System.Boolean bypassIgnore) [0x00000] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:42 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities..cctor () [0x00000] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at C:/Users/muth23/Downloads/MRTKTutorial/MRTKTutorial/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@4ec0bc61a23e-1644364188659/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at C:/Users/muth23/Downloads/MRTKTutorial/MRTKTutorial/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@4ec0bc61a23e-1644364188659/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: C:/Users/muth23/Downloads/MRTKTutorial/MRTKTutorial/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@4ec0bc61a23e-1644364188659/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+[XR] [MROpenXR][Info   ][15:43:18.452821][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.26f1
+[XR] [MROpenXR][Info   ][15:43:18.454005][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][15:43:18.454127][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][15:43:18.454222][tid:5aac] OnPluginStarted UnityVersion=2020.3.26f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  2.591 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2592ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2297ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (572ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1072ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (499ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3572 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.8 MB.
+System memory in use after: 147.8 MB.
+
+Unloading 108 unused Assets to reduce memory usage. Loaded Objects now: 4051.
+Total: 6.737200 ms (FindLiveObjects: 0.478000 ms CreateObjectMapping: 0.628300 ms MarkObjects: 4.409900 ms  DeleteObjects: 1.218900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006569 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\muth23\Downloads\ACARSVPResearch-3.7.22.branch\ACARSVPResearch-3.7.22.branch\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@922189e0c9f2-1646781990920\Samples~\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses'.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x000f7] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].CommonInit () [0x00054] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource]..ctor (System.String path, System.String originalUserPath, System.String searchPattern, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1[TSource] resultHandler, System.Boolean checkHost) [0x000d6] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableFactory.CreateFileNameIterator (System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00009] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern) [0x0001c] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern) [0x0000e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x00002] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFilesSubdirs(System.Collections.ArrayList,string)
+  at System.IO.DirectoryInfo.GetFilesSubdirs (System.Collections.ArrayList l, System.String pattern) [0x0002f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.DirectoryInfo.GetFiles (System.String searchPattern, System.IO.SearchOption searchOption) [0x00017] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.DirectoryInfo.GetFiles(string,System.IO.SearchOption)
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.FindShaderFolderInPackage () [0x0004c] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:152 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities.EnsureShaders (System.Boolean bypassIgnore) [0x00000] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:42 
+  at Microsoft.MixedReality.Toolkit.Utilities.Editor.OnLoadUtilities..cctor () [0x00000] in C:\Users\muth23\Downloads\MRTKTutorial\MRTKTutorial\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@3d9cf8073ad6-1644364188735\EditorUtilities\OnLoadUtilities.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at C:/Users/muth23/Downloads/MRTKTutorial/MRTKTutorial/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@4ec0bc61a23e-1644364188659/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at C:/Users/muth23/Downloads/MRTKTutorial/MRTKTutorial/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@4ec0bc61a23e-1644364188659/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: C:/Users/muth23/Downloads/MRTKTutorial/MRTKTutorial/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@4ec0bc61a23e-1644364188659/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+[XR] [MROpenXR][Info   ][15:44:27.614507][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.26f1
+[XR] [MROpenXR][Info   ][15:44:27.614996][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][15:44:27.615055][tid:5aac] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][15:44:27.615132][tid:5aac] OnPluginStarted UnityVersion=2020.3.26f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.525 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1526ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1343ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (667ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (311ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3571 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.9 MB.
+System memory in use after: 147.9 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4053.
+Total: 4.334200 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.167200 ms MarkObjects: 3.565200 ms  DeleteObjects: 0.324400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 228.745245 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity
+  artifactKey: Guid(16177da2e3254cee91944756d5f8ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity using Guid(16177da2e3254cee91944756d5f8ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31475f26f65cc85b00da7a15c0d9173b') in 0.025798 seconds 
+  Import took 0.034802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.078468 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+  artifactKey: Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity using Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466063676ee17f7c7e6d1b4d3f5bafa9') in 0.009198 seconds 
+  Import took 0.016339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.464103 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.examples
+  artifactKey: Guid(287574668d62f19424fa6a7b2d8b3187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.examples using Guid(287574668d62f19424fa6a7b2d8b3187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8e95931dd21530dd3922fad65a5020') in 0.013827 seconds 
+  Import took 0.021683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.817897 seconds.
+  path: Packages/com.unity.ugui
+  artifactKey: Guid(8f7652e09069a1943278893d4264401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui using Guid(8f7652e09069a1943278893d4264401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be8eef517426cf4e5d1ef023f0f7cab') in 0.011593 seconds 
+  Import took 0.026815 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
