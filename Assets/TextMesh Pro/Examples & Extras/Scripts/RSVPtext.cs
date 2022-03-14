@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -6,13 +8,13 @@ using TMPro;
 /*  Names: Adrian Muth and Chase Ohmstede
     Date: 3-7-2022
 
-    Description: Splits input by word and displays each word for a set amount of time.  
+    Description: Gets input from text file, splits it by word, and displays each word for a set amount of time.  
     Built using TMP_ExampleScript_01 from the MRTKTutorial as a template.
 */
 
 namespace TMPro.Examples
 {
-    public class RSVPtext : MonoBehaviour
+    public class RSVP_text : MonoBehaviour
     {
         public enum objectType { TextMeshPro = 0, TextMeshProUGUI = 1 };
 
@@ -28,9 +30,23 @@ namespace TMPro.Examples
 
         public void Start() 
         {
+            // If file exists, read and parse it.  Else, notify user and use sample text instead
+            try {
+                StreamReader reader = new StreamReader("titanic.txt");
+                string line = "";
+
+                while (reader.Peek() > -1) {
+                    line = line + reader.ReadLine();
+                }
+
+                wordArr = line.Split(' '); 
+            } catch (Exception e) {
+                Debug.Log(e.Message);
+                wordArr = test.Split(' ');
+            }
             timerRunning = true;
-            InvokeRepeating("Interval", 1.0f, .2f); // Show one word each .2 seconds
-            wordArr = test.Split(' ');
+            InvokeRepeating("Interval", 1.0f, .1f); // Show one word each .2 seconds
+            //wordArr = test.Split(' ');
         }
 
         public void Interval() 
