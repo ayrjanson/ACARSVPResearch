@@ -23,10 +23,14 @@ namespace TMPro.Examples
         private TMP_TextInfo rsvp_info;
 
         public int i = 0; // Used to iterate through word array
+        public string countdown = "3 2 1";
         public string test = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum leo sodales sem vehicula ullamcorper. Morbi velit tortor, congue eget auctor ac, porta sit amet elit. Vivamus eu augue vel nisl iaculis tristique. Duis molestie, lacus in pulvinar commodo, risus nulla pretium diam, eget commodo massa ante sit amet nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus lacus arcu, cursus scelerisque ex vel, aliquet eleifend orci. Fusce vel rhoncus ante. Sed volutpat, magna non imperdiet finibus, nulla est condimentum elit, sit amet mollis lacus urna id lectus. Integer condimentum dui nec est commodo, quis tristique mi egestas.";
         public string[] wordArr;
         public bool isStatic;
         public bool timerRunning = false;
+
+        public float wpm = 0.2f;
+        public float countdown_wpm = 1.0f;
 
         public void Start() 
         {
@@ -45,8 +49,7 @@ namespace TMPro.Examples
                 wordArr = test.Split(' ');
             }
             timerRunning = true;
-            InvokeRepeating("Interval", 1.0f, .1f); // Show one word each .2 seconds
-            //wordArr = test.Split(' ');
+            InvokeRepeating("IntervalCountdown", 0.0f, countdown_wpm); // Show one word each .2 seconds
         }
 
         public void Interval() 
@@ -62,6 +65,27 @@ namespace TMPro.Examples
                 } else {
                     // End of word array reached - stop timer
                     timerRunning = false;
+                }
+            }
+        }
+
+        public void IntervalCountdown() {
+            string[] countdownArr = countdown.Split(' ');
+            if (timerRunning)
+            {
+                if (i < countdownArr.Length)
+                {
+                    if (!isStatic)
+                    {
+                        // Update the displayed text and increment
+                        rsvp_text.SetText(countdownArr[i]);
+                        i++;
+                    }
+                } else {
+                    // End of countdown reached - go to interval
+                    InvokeRepeating("Interval", 0.0f, wpm);
+                    wordArr = test.Split(' ');
+                    i = 0;
                 }
             }
         }
